@@ -1,7 +1,7 @@
 // set up requirements for server and to build out pages
 var express = require("express");
-var fs = require("fs");
-var path = require("path");
+
+
 
 var app = express();
 
