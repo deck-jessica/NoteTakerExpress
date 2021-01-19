@@ -29,12 +29,14 @@ module.exports = function(app) {
 
     res.json(req.body);
 
-    writeToDB(notesData);
+    writeToDB();
     });
 
     // API DELETE Request
-    app.delete("/api/notes", function(req, res) {
+    app.delete("/api/notes/:id", function(req, res) {
 
+
+        writeToDB();
     });
 
 };
