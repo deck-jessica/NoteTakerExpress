@@ -4,7 +4,7 @@
 
 This application can be used to save notes to a server (in this case, Express) so they can be written, viewed, saved and deleted through this web application. Notes are converted to JSON for storage, and stringified to display on applciation. The front end application is housed in the public folder. The database and server functionality are in the server.js file, which accesses the routes (web and API).
 
-[Note Taker Express Live Link](https://drive.google.com/file/d/1F5nKVIAQ5wTZPbYdis90Nugyp6QNgmEs/view)
+[Note Taker Express Live Link](https://hidden-refuge-19183.herokuapp.com/)
 
 ![Note Taker Express Home](/public/assets/images/homepage.png)
 
